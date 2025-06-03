@@ -1,7 +1,3 @@
-Certainly, Aditya! Here's a comprehensive `README.md` tailored for your [SmartGrocer](https://github.com/nerdyADITYA/SmartGrocer) Android application repository. This document is designed to guide users through the repository, elucidating its structure and functionalities.
-
----
-
 # SmartGrocer
 
 **SmartGrocer** is a feature-rich Android application that streamlines the grocery shopping experience. Users can effortlessly browse products, add items to their cart, make secure payments, and track orders in real-time. The app is designed with both user convenience and efficient store management in mind.
