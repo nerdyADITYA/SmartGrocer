@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="405dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="6sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="6sp"
+        android:layout_marginBottom="3sp"
+        app:cardBackgroundColor="#76ABAE"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="15dp"
+        tools:ignore="MissingConstraints">
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/TVProduct"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:paddingRight="50dp"-->
+<!--                android:text="Product"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/TVPrice"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_toEndOf="@+id/TVProduct"-->
+<!--                android:paddingRight="50dp"-->
+<!--                android:text="Price"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/TVQty"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_toEndOf="@+id/TVPrice"-->
+<!--                android:paddingRight="60dp"-->
+<!--                android:text="Qty"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/TVAmount"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Amount"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_toEndOf="@+id/TVQty"-->
+<!--                android:textSize="20dp"-->
+<!--                tools:ignore="NotSibling" />-->
+
+<!--        </RelativeLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TVProduct"
+                android:layout_weight="1"
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingRight="50dp"
+                android:text="Product"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/TVPrice"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="50dp"
+                android:text="Price"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/TVQty"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="60dp"
+                android:text="Qty"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/TVAmount"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="NotSibling" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

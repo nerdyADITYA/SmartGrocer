@@ -1,0 +1,70 @@
+<!-- res/layout/list_item_checkout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="100sp"
+        android:layout_marginLeft="6sp"
+        android:layout_marginRight="6sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="3sp"
+        app:cardBackgroundColor="#76ABAE"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="15dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/itemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/itemQty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/itemName"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/itemPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:layout_below="@id/itemQty"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/totalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:layout_below="@id/itemPrice"
+                android:layout_weight="1"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

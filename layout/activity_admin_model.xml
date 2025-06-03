@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.AdminModel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ADMIN ACCESS"
+            android:textSize="55dp"
+            android:textStyle="italic|bold|normal"
+            android:gravity="center|center_horizontal"/>
+
+        <Button
+            android:id="@+id/btAddGrocery"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add grocery"
+            android:textSize="40dp"/>
+
+        <Button
+            android:id="@+id/btShowGrocery"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show Grocery"
+            android:textSize="40dp"/>
+
+        <Button
+            android:id="@+id/btDeleteGrocery"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete Grocery"
+            android:textSize="35dp"/>
+
+        <Button
+            android:id="@+id/btAddDairy"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add Dairy"
+            android:textSize="40dp"/>
+
+        <Button
+            android:id="@+id/btShowDairy"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show Dairy"
+            android:textSize="40dp"/>
+
+        <Button
+            android:id="@+id/btDeleteDairy"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete Dairy"
+            android:textSize="35dp"/>
+
+        <Button
+            android:id="@+id/btAddFruits"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add Fruits"
+            android:textSize="35dp"/>
+
+        <Button
+            android:id="@+id/btShowFruits"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Show Fruits"
+            android:textSize="35dp"/>
+
+        <Button
+            android:id="@+id/btDeleteFruits"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete Fruits"
+            android:textSize="35dp"/>
+
+        <Button
+            android:id="@+id/btExperiment"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="experiment"
+            android:textSize="35dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/ImageView"
+        android:layout_toRightOf="@+id/ImageView"
+        android:paddingBottom="10dp"
+        android:text="NAME"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="150dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/Price"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/Name"
+        android:layout_toEndOf="@+id/ImageView"
+        android:layout_toRightOf="@+id/ImageView"
+        android:paddingTop="10dp"
+        android:text="PRICE"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/Qty"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/Price"
+        android:layout_toEndOf="@id/ImageView"
+        android:text="QUANTITY"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/Unit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/Qty"
+        android:layout_toEndOf="@id/ImageView"
+        android:text="UNIT"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/Deletebtn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImageView"
+        android:text="DELETE"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/Updatebtn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImageView"
+        android:layout_toEndOf="@id/Deletebtn"
+        android:text="UPDATE"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
